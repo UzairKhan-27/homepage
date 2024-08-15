@@ -46,13 +46,19 @@ h6 {
 }
 
 /* My CSS */
-
 body {
 	background-color: white;
 	font-size: 16px;
 }
+html,
+body {
+	overflow-x: hidden;
+	max-width: 100%;
+}
 header {
 	background-color: lightblue;
+	text-align: center;
+	padding: 1rem;
 }
 h1 {
 	display: flex;
@@ -60,6 +66,7 @@ h1 {
 }
 .intro {
 	text-align: center;
+	font-size: 1.2rem;
 }
 section {
 	display: grid;
@@ -74,4 +81,28 @@ section {
 	background-color: cyan;
 	width: 250px;
 	height: 250px;
+}
+.profile-picture {
+	margin: 0 auto;
+	width: 50vw;
+	border-radius: 25vw;
+}
+.icon-container {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	padding: 1rem;
+}
+i {
+	font-size: 2.5rem;
+}
+a {
+	transition: transform 0.5s ease-in-out;
+}
+a:visited,
+a:link {
+	color: black;
+}
+a:hover {
+	transform: scale(1.5);
 }
