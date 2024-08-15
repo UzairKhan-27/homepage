@@ -208,7 +208,14 @@ footer img {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
+	footer h1 {
+		justify-content: start;
+		padding: 0 1rem;
+	}
 	footer .icon-container {
 		justify-content: start;
+	}
+	.footer-picture {
+		width: 20vw;
 	}
 }
